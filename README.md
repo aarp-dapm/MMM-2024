@@ -10,14 +10,15 @@ This folder processes the raw data obtained either from S3 or .CSV files into st
 
 Folder structure is as follows:
 
-Buying Group Level Data (like Membership, Brand):\
-               |\
-               | -----> Media Level Data (like Social, Search) :\
-                                   |\
-                                   | -----> Platform Level Data (like Facebook, Google, Bing):\
-                                                   |\
-                                                   | ----->  00 Media Data\
-                                                             01 Platform1 Data\
-                                                             02 Platform2 Data\
-                                                             03 Platform3 Data
+Buying Group Level Data (like Membership, Brand):  
+&nbsp;&nbsp;&nbsp;&nbsp;|  
+&nbsp;&nbsp;&nbsp;&nbsp;| -----> Media Level Data (like Social, Search):  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -----> Platform Level Data (like Facebook, Google, Bing):  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ----->  00 Media Data  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ----->  01 Platform1 Data  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ----->  02 Platform2 Data  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ----->  03 Platform3 Data
+
                                                    
