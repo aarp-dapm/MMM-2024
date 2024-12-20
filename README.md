@@ -17,5 +17,5 @@ Folder structure is as follows:
       - 01 Platform1 Data
       - 02 Platform2 Data
       - 03 Platform3 Data
-
+      - NOTE: Files 01 Platform1 Data, 02 Platform2 Data .... 0N PlatformN Data recieve data from each data source and process them. All these processed files are merged in 00 Media Data file for one single media.
                                                    
