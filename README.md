@@ -44,6 +44,13 @@ This folder has two major sub-folders:
 ## 03 Optimization
 This folder created media response curve for each media (not at platform level) and, in a seperate script, optimizes media spend for maximum joins while fixing total spend or minimizes spend for fized joins. 
 
+                Following Scripts/Folder are present in the folder:
+
+                1) Folders like 01.02 Membership Curves, 01.03 ICM Curves, 01.04 Brand Curves, 01.05 ASI Curves, 01.06 RemainingEM curves: These folders contain calculations of curves parameters for each channel - Buying group level curve.
+                2) 01.01 Optimization curves: Creating Input: Preprocess data to be consumed by above folder and remaining scripts.
+                3) 01.02.01 Optimization Curves: Budget Allocation: Script to maximize joins for fixed total spend by reallocating budget to channels
+                4) 01.02.02 Optimization Curves: Budget Allocation (Fixed Joins Minimize Budget): Script to minimize total spend for fixed spend by reallocating budget to channels
+
 
 
 ## 04 Brand Model
