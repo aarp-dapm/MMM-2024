@@ -21,8 +21,20 @@ Folder structure is as follows:
      
 ## 02 Model Development
 This folder has two major sub-folders:
-1) 01 Data Processing: Concatenates all data sources. Aggregates data at required level and pivot data in the form to be ingested by modeling libraray
-2) 02 Model Dev: Here we are developing the models and submodels for Joins
+1) 01 Data Processing: Concatenates all data sources. Aggregates data at required level and pivot data in the form to be ingested by modeling library.
+                       Following Scripts are present in the folder:
+                       1) 01 Data Processing MediaData.py: Joins all Media Data
+                       2) 02 Data Processing TargetVar.py: Joins all Target Variables (Joins, registrations, Ben Ref Clicks), Promotions, Seasonality, Brand metrics.
+                       3) 101 DataCreation WeekAgeDma ChannelLevelModel.py & 101 DataCreation WeekDma ChannelLevelModel.py: This script and below converts data to be ingested by modelling script. Here data is created at different granularity for different cases. Point to be noted there is not just one data source created in these modeling scripts, multiple data sources are created which will be ingested by different sub-modeliing solutions. Check back on these two scripts to know how data source is created,a lthough there are some "00 Data Creation" folders as well in some sub-modelling scenario.
+   
+3) 02 Model Dev: Here we are developing the models and submodels for Joins.
+                 Following Scripts are present in the folder:
+                 1) 01 Initial Model: This folder has script for channel level modelling. It has script for both main model and sub model. Look for script "--------main.py" for main model.
+                 2) 02 Age Group Randomization: It has script for each age group model. Look for script "--------main.py" for main model.
+                 3) 03 Sub Model: In this folder, channel level output from "01 Initial Model" are broken into sub-channel level contirbutions.Look for script "--------main.py" for main model.
+                 4) 04 Sub Model (Campaign): In this folder, sub channel level output are broken into campaign level contributons. Look for script "--------main.py" for main model.
+
+   NOTE: In each folder, main modelling is done in "-------------Main.py" and contribution calculation is done in "----------Evaluation.py"
 
 
 ## 03 Optimization
