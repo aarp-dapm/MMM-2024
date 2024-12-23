@@ -42,7 +42,7 @@ This folder has two major sub-folders:
 
 
 ## 03 Optimization
-This folder created media response curve for each media (not at platform level) and, in a seperate script, optimizes media spend for maximum joins while fixing total spend or minimizes spend for fized joins. 
+This folder created media response curve for each media (not at platform level) and, in a seperate script, optimizes media spend for maximum joins while fixing total spend or minimizes spend for fixed joins. 
 
                 Following Scripts/Folder are present in the folder:
 
@@ -54,8 +54,12 @@ This folder created media response curve for each media (not at platform level) 
 
 
 ## 04 Brand Model
-Scripts for Brand models
+This folder contains scripts for brand model.
 
+                Following Scripts/Folder are present in the folder:
+
+                1) 01 Brand Model: Base Joins on Media: Examines the effect of Brand Media on Base joins obtained from MMMM
+                2) 02 Brand Model: Base Joins and Purcahse Intent Vo1 (and Vo2): Examines the effect of Purchase Intent KPI on Base Joins 
 
 ## 05 DMA Analysis
 Scripts for DMA analysis 
