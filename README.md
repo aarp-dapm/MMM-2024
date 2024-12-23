@@ -62,9 +62,11 @@ This folder contains scripts for brand model.
                 2) 02 Brand Model: Base Joins and Purcahse Intent Vo1 (and Vo2): Examines the effect of Purchase Intent KPI on Base Joins 
 
 ## 05 DMA Analysis
-Scripts for DMA analysis 
+This folder contains script for DMA Analysis.
 
-
+                Following Scripts/Folder are present in the folder:
+                1) Scripts from 01.01 to 01.08 randomize coefficient for each channel and calculate coeff. per DMA for that channel. Calculation is done for total of 8 channels.
+                2) 01.20 Compile Reports: Compiles coeff. for all DMAs and all channel in one single report 
 ## 06 DM&P Analysis
 Scripts for DM&P analysis. Investigating how DM&P media is driving registrations 
 
