@@ -3,9 +3,9 @@
 ## 01 Data Discovery
 This folder processes the raw data obtained either from S3 or .CSV files into standard format. Processing of data includes: 
 
-1) Aggreagtion of Data \
-2) Imputation of missing data \ 
-3) Standardizing all metrics of data \
+1) Aggreagtion of Data 
+2) Imputation of missing data  
+3) Standardizing all metrics of data 
 
 
 Folder structure is as follows:
@@ -79,3 +79,13 @@ This folder contains Data creation and Model development scripts for Registratio
 
 ## 07 Benefit Referral analysis
 Scripts for Referral analysis. Investigating how ASI media is driving Benefit Referral clicks
+
+
+                Following Scripts/Folder are present in the folder:
+                1) 01 Data Processing: Creates variable transformation for variables at buying group level. Adds other relevant data needed for analysis.
+                2) 02 Initial Model: 
+                        1) 01.01 AARP Reg MMM - Main: Models how ASI media is driving Benefit referral Clicks.
+                        2) 01.02 AARP Reg MMM - Model Evaluation: Calculates model contribution for different Benefit Referral Clicks Models. 
+
+
+                NOTE: Notebooks name in Benefit Referral Analysis are same to the one in DM&P analysis but analysis are different in each folder.
