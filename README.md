@@ -68,7 +68,13 @@ This folder contains script for DMA Analysis.
                 1) Scripts from 01.01 to 01.08 randomize coefficient for each channel and calculate coeff. per DMA for that channel. Calculation is done for total of 8 channels.
                 2) 01.20 Compile Reports: Compiles coeff. for all DMAs and all channel in one single report 
 ## 06 DM&P Analysis
-Scripts for DM&P analysis. Investigating how DM&P media is driving registrations 
+This folder contains Data creation and Model development scripts for Registration analysis.
+
+                Following Scripts/Folder are present in the folder:
+                1) 01 Data Processing: Creates variable transformation for variables at buying group level. Adds other releavnt data needed for analysis.
+                2) 02 Initial Model: 
+                        1) 01.01 AARP Reg MMM - Main: Adds additional data source of Priroty Engagment, and models DM&P media (and other media) on Registration variable (and PE Variable)
+                        2) 01.02.01 AARP Reg MMM - Model Evaluation - Reg (and 01.02.02 AARP Reg MMM - Model Evaluation - PE): Calculates model contribution for different models and for different target KPIs 
 
 
 ## 07 Benefit Referral analysis
